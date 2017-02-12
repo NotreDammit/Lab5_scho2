@@ -6,6 +6,7 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorYellow">#fffb00</color>
 
+    <color name="colorGrey">#767676</color>
     <color name="colorPrimary2">#202020</color>
     <color name="colorPrimaryDark2">#0b0b0b</color>
     <color name="colorAccent2">#e0e0e0</color>
