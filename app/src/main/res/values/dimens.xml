@@ -7,4 +7,10 @@
     <dimen name="big_text">36sp</dimen>
     <dimen name="medium_text">22sp</dimen>
     <dimen name="small_text">20sp</dimen>
+    <dimen name="vsMargin">15dp</dimen>
+    <dimen name="dateLocationText">15sp</dimen>
+    <dimen name="detailMargin">15dp</dimen>
+    <dimen name="detailName">17.5sp</dimen>
+    <dimen name="detailMascot">15sp</dimen>
+    <dimen name="detailRecord">15sp</dimen>
 </resources>

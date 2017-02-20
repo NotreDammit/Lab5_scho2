@@ -2,10 +2,12 @@ package com.cs60333.scho2.lab2_scho2;
 
 import android.app.Activity;
 import android.app.ListActivity;
+import android.content.Intent;
 import android.view.View;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.AdapterView;
@@ -58,8 +60,17 @@ public class MainActivity extends AppCompatActivity {
         scheduleListView.setOnItemClickListener(new OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String SelectedItem = schedule[++position];
-                Toast.makeText(MainActivity.this, SelectedItem, Toast.LENGTH_SHORT).show();
+                setContentView(R.layout.activity_detail);
+                Button b = (Button)findViewById(R.id.detailCamera);
+                b.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                        startActivity(cameraIntent);
+                    }
+                });
+//                String SelectedItem = schedule[position];
+//                Toast.makeText(MainActivity.this, SelectedItem, Toast.LENGTH_SHORT).show();
             }
         });
     }
