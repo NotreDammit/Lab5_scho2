@@ -10,21 +10,36 @@ import android.widget.TextView;
 import android.widget.ImageView;
 import java.util.ArrayList;
 
+import static java.lang.Integer.parseInt;
+
 /**
  * Created by samcholo on 2/11/17.
  */
 
-public class ScheduleAdapter extends ArrayAdapter<String> {
+public class ScheduleAdapter extends ArrayAdapter<Team> {
     private Activity context;
-    private String[] schedule;
+    private String[] opponentName;
     private String[] dates;
     private Integer[] puppers;
-    public ScheduleAdapter (Activity context, String[] schedule, String[] dates, Integer[] puppers) {
-        super(context, R.layout.schedule_item, schedule);
+    ArrayList<Team> example = new ArrayList<>();
+//    private String[] mascots;
+//    private String[] opponentRecords;
+//    private String[] ndRecords;
+//    private String[] finalScores;
+    public ScheduleAdapter (Activity context, String[] teams, String[] dates, Integer[] puppers) {
+        super(context, R.layout.schedule_item);
+        //this.example = teams;
         this.context=context;
-        this.schedule=schedule;
+        this.opponentName=teams;
         this.dates=dates;
         this.puppers=puppers;
+//        this.schedule=schedule;
+//        this.dates=dates;
+//        this.puppers=puppers;
+//        this.mascots=mascots;
+//        this.opponentRecords=opponentRecords;
+//        this.ndRecords=ndRecords;
+//        this.finalScores=finalScores;
     }
 
     public View getView (int position, View convertView, ViewGroup parent) {
@@ -39,7 +54,16 @@ public class ScheduleAdapter extends ArrayAdapter<String> {
         ImageView pupperView = (ImageView) scheduleView.findViewById(R.id.imageOfPuppers);
         TextView gameDate = (TextView) scheduleView.findViewById(R.id.date);
 
-        teamName.setText(schedule[position]);
+        String opponentName1 = this.opponentName[position];
+        String dates1 = this.dates[position];
+        Integer puppers1 = this.puppers[position];
+//        opponentName = example.get(position).getTeamName();
+//        puppers = example.get(position).getTeamLogo();
+//        dates = example.get(position).getDate();
+
+        teamName.setText(opponentName[position]);
+        //int resID = context.getResources().getIdentifier(puppers, "drawable", context.getPackageName());
+        //int a = R.drawable.puppers5;
         pupperView.setImageResource(puppers[position]);
         gameDate.setText(dates[position]);
 

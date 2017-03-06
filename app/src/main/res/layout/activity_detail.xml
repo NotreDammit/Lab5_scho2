@@ -12,8 +12,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="@dimen/detailMargin"
         android:layout_marginBottom="3dp"
-        android:textSize="@dimen/dateLocationText"
-        android:text="Date goes Here!"/>
+        android:textSize="@dimen/dateLocationText" />
 
     <TextView
         android:id="@+id/detailLocation"
@@ -23,11 +22,10 @@
         android:layout_marginLeft="@dimen/detailMargin"
         android:layout_marginBottom="30dp"
         android:textSize="@dimen/dateLocationText"
-        android:text="Location goes Here!"/>
+        android:text="Purcell Pavilion, Notre Dame, Indiana"/>
 
     <TextView
         android:id="@+id/detailFinalScore"
-        android:text="72 - 84"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/detailLocation"
@@ -46,7 +44,6 @@
 
     <TextView
         android:id="@+id/detailOpponentSchool"
-        android:text="Florida State"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toStartOf="@id/detailVs"
@@ -56,7 +53,6 @@
         android:textStyle="bold"/>
     <TextView
         android:id="@+id/detailOpponentMascot"
-        android:text="Seminoles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toStartOf="@id/detailVs"
@@ -65,7 +61,6 @@
         android:layout_marginRight="@dimen/vsMargin"/>
     <TextView
         android:id="@+id/detailOpponentRecord"
-        android:text="(21-5)"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toStartOf="@id/detailVs"
@@ -94,7 +89,6 @@
         android:layout_marginLeft="@dimen/vsMargin"/>
     <TextView
         android:id="@+id/detailRecord"
-        android:text="(19-7)"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/detailVs"
@@ -103,7 +97,7 @@
         android:layout_marginLeft="@dimen/vsMargin"/>
     <ImageView
         android:id="@+id/detailLogo"
-        android:background="@drawable/puppers2"
+        android:background="@drawable/leprechaun"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_alignParentRight="true"
@@ -128,5 +122,13 @@
         android:text="CAMERA"
         android:textAlignment="center"
         android:background="@drawable/button_border"/>
+
+    <ImageView
+        android:id="@+id/detailPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/detailCamera"
+        android:layout_marginTop="15dp"/>
 
 </RelativeLayout>
