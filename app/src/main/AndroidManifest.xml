@@ -7,7 +7,7 @@
         android:icon="@drawable/puppers1"
         android:label="@string/lab3_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme2">
+        android:theme="@style/MyMaterialTheme">
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

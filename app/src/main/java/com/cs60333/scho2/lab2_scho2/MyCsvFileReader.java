@@ -31,7 +31,7 @@ public class MyCsvFileReader extends AppCompatActivity {
             reader = new BufferedReader(isr);
             String line = "";
             while ((line = reader.readLine()) != null) {
-                String[] teamInfo = line.split(",");
+                String[] teamInfo = line.split(",  ");
                 games.add(teamInfo);
             }
         } catch (IOException e) {

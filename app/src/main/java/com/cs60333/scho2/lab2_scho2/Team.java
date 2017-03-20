@@ -1,14 +1,6 @@
 package com.cs60333.scho2.lab2_scho2;
 
-import android.app.Activity;
-import android.content.Context;
-import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
-import android.util.Log;
-
 import java.io.Serializable;
-
-import static java.security.AccessController.getContext;
 
 /**
  * Created by samcholo on 3/1/17.
@@ -21,17 +13,8 @@ public class Team implements Serializable {
     private String teamRecord;
     private String ndRecord;
     private String score;
+    private String longDate;
     private String date;
-
-//    public Team (String teamNames, String teamLogos, String teamMascots, String teamRecords, String ndRecords, String scores, String dates) {
-//        setTeamName(teamNames);
-//        setTeamLogo(teamLogos);
-//        setTeamMascot(teamMascots);
-//        setTeamRecord(teamRecords);
-//        setNdRecord(ndRecords);
-//        setScore(scores);
-//        setDate(dates);
-//    }
 
     public Team (String[] teams) {
         setTeamName(teams[0]);
@@ -40,16 +23,15 @@ public class Team implements Serializable {
         setTeamRecord(teams[3]);
         setNdRecord(teams[4]);
         setScore(teams[5]);
-        setDate(teams[6]);
+        setLongDate(teams[6]);
+        setDate(teams[7]);
     }
 
     public void setTeamName(String teamNames) {this.teamName = teamNames;}
 
     public String getTeamName() {return this.teamName;}
 
-    public void setTeamLogo(String teamLogos) {this.teamLogo = teamLogos;
-   // Log.d("help", teamLogos);
-    }
+    public void setTeamLogo(String teamLogos) {this.teamLogo = teamLogos;}
 
     public String getTeamLogo() { return this.teamLogo; }
 
@@ -81,6 +63,14 @@ public class Team implements Serializable {
 
     public String getScore() {
         return this.score;
+    }
+
+    public void setLongDate(String longDates) {
+        this.longDate = longDates;
+    }
+
+    public String getLongDate() {
+        return this.longDate;
     }
 
     public void setDate(String dates) {
