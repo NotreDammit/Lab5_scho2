@@ -7,53 +7,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="1386376c28de4fa98dd0a605bbb4f65f054cf040">
+        sha1="b45d7a107a0e088aaf934b34486326cd854efd17">
         <dex dex="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_67e054429b6bfba067a0788304f5a4444e5ae1a1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_21425aa622c005058dc694411975c910761a3bb5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_32c8e4f0754d0386ef98644429382ffd4896dcbc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f6e952d9d08fa110b4698d76d7c7b85852184afd">
-        <dex dex="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bbff7834be5387dd71a4d097bedb03f11ccf0d78/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_c0beadc56f74129d498c175a6466471f3c288bc4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/samcholo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_b8511ffc90a6a10bc374fd7df976091671365146/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -81,6 +36,51 @@
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_f81b71b275c6ec4db77d4b2c191f445a895d5e5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_21425aa622c005058dc694411975c910761a3bb5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_32c8e4f0754d0386ef98644429382ffd4896dcbc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4d3e7c43dbd9f4e69b15687172d9a1e86e2a17bb">
+        <dex dex="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bbff7834be5387dd71a4d097bedb03f11ccf0d78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_c0beadc56f74129d498c175a6466471f3c288bc4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/samcholo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/Users/samcholo/Desktop/Lab2_scho2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_b8511ffc90a6a10bc374fd7df976091671365146/classes.dex" />
     </item>
     <item
         is-multidex="true"
